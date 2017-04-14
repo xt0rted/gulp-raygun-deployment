@@ -1,0 +1,32 @@
+{
+  "name": "gulp-raygun-deployment",
+  "version": "0.0.1",
+  "description": "Gulp task to create Raygun deployments.",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/xt0rted/gulp-raygun-deployment",
+  "bugs": "https://github.com/xt0rted/gulp-raygun-deployment/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xt0rted/gulp-raygun-deployment.git"
+  },
+  "author": {
+    "name": "Brian Surowiec",
+    "url": "https://github.com/xt0rted"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "raygun",
+    "deployments"
+  ],
+  "dependencies": {
+    "gulp-util": "3.0.8",
+    "request": "2.81.0",
+    "through2": "2.0.3"
+  }
+}
